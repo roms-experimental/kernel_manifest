@@ -6,7 +6,7 @@
 
   <superproject name="kernel/superproject" remote="aosp" revision="common-android12-5.10-lts" />
 
-  <project path="build" name="kernel/build" />
+  <project path="build" name="android_kernel_build" remote="roms-experimental" revision="master-kernel-build-2021" />
   <project path="hikey-modules" name="kernel/hikey-modules" revision="android12-5.10" />
   <project path="common" name="android_kernel_common" remote="roms-experimental" revision="android12-5.10-lts" />
   <project path="kernel/tests" name="kernel/tests" revision="main" />
